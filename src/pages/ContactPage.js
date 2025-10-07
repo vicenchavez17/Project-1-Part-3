@@ -9,9 +9,9 @@ export default function ContactPage() {
 
       {/* Contact info section */}
       <div className="mb-5">
-        <p className="mb-1">Danny: dochoamorales@horizon.csueastbay.edu</p>
-        <p className="mb-1">Tim: torlov@horizon.csueastbay.edu</p>
-        <p className="mb-1">Vinny: vicentechavezmend@gmail.com</p>
+        <p className="mb-1">Daniel: dochoamorales@horizon.csueastbay.edu</p>
+        <p className="mb-1">Timothy: torlov@horizon.csueastbay.edu</p>
+        <p className="mb-1">Vicente Chavez: vicentechavezmend@gmail.com</p>
       </div>
 
       {/* Image placeholder section */}
@@ -25,3 +25,4 @@ export default function ContactPage() {
     </div>
   );
 }
+
