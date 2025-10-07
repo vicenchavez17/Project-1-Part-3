@@ -41,7 +41,7 @@ export default function AboutPage() {
                 Tim
               </h5>
               <p className="card-text">
-                Hi, I'm Tim. I designed the website and helped come up with the idea.
+                Hi, I'm Timothy. I designed the website and helped come up with the idea.
               </p>
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function AboutPage() {
                 Vincente
               </h5>
               <p className="card-text">
-                Hi, I'm Vincente. I came up with the idea and handled the backend.
+                Hi, I'm Vicente Chavez. I came up with the idea and handled the backend.
               </p>
             </div>
           </div>
@@ -69,3 +69,4 @@ export default function AboutPage() {
     </div>
   );
 }
+
