@@ -11,7 +11,8 @@ export default function ContactPage() {
       <div className="mb-5">
         <p className="mb-1">Daniel: dochoamorales@horizon.csueastbay.edu</p>
         <p className="mb-1">Timothy: torlov@horizon.csueastbay.edu</p>
-        <p className="mb-1">Vicente Chavez: vicentechavezmend@gmail.com</p>
+        <p className="mb-1">Vicente Chavez: vchavez@horizon.csueastbay.edu</p>
+        <p className="mb-1">Rohith: rpaduru2@horizon.csueastbay.edu</p>
       </div>
 
       {/* Image placeholder section */}

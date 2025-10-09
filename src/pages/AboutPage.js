@@ -2,6 +2,7 @@ import React from "react";
 import danny from "../assets/about/danny.png";
 import tim from "../assets/about/tim.png";
 import vinny from "../assets/about/vinny.png";
+import rohith from "../assets/about/rohith.png";
 
 export default function AboutPage() {
   return (
@@ -9,7 +10,7 @@ export default function AboutPage() {
       <h1 className="mb-4">About the Creators</h1>
 
       <div className="row justify-content-center">
-        <div className="col-12 col-md-4 mb-4">
+        <div className="col-12 col-md-3 mb-4">
           <div className="card bg-dark text-light border border-danger p-3">
             <img
               src={danny}
@@ -28,7 +29,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className="col-12 col-md-4 mb-4">
+        <div className="col-12 col-md-3 mb-4">
           <div className="card bg-dark text-light border border-danger p-3">
             <img
               src={tim}
@@ -47,7 +48,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className="col-12 col-md-4 mb-4">
+        <div className="col-12 col-md-3 mb-4">
           <div className="card bg-dark text-light border border-danger p-3">
             <img
               src={vinny}
@@ -57,10 +58,29 @@ export default function AboutPage() {
             />
             <div className="card-body">
               <h5 className="card-title">
-                Vincente
+                Vicente
               </h5>
               <p className="card-text">
                 Hi, I'm Vicente Chavez. I came up with the idea and handled the backend.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-12 col-md-3 mb-4">
+          <div className="card bg-dark text-light border border-danger p-3">
+            <img
+              src={rohith}
+              alt="Creator 4"
+              className="card-img-top rounded"
+              style={{ objectFit: "cover", height: "250px" }}
+            />
+            <div className="card-body">
+              <h5 className="card-title">
+                  Rohith
+              </h5>
+              <p className="card-text">
+                  Hi, I'm Rohith. I helped deploy the website to S3.
               </p>
             </div>
           </div>
